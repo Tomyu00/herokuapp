@@ -1,0 +1,31 @@
+img{
+	height: 200px;
+}
+
+body{
+	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	animation: loadwebsite 5s;
+}
+
+@keyframes loadwebsite{
+	0%{
+		opacity: 0;
+		font-size: 100px;
+	}
+
+	100%{
+		opacity: 1;
+		font-size: 70px;
+	}
+}
+
+div{
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px: 
+}
+
